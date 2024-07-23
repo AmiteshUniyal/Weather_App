@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(152, 175, 175);
+}
+.innerbody{
+    border-radius: 0.8em;
+    height: 30em;
+    width: 30em;
+    margin: 6em;
+    background-color:rgb(185, 178, 168)
+}
+.head{
+    border-radius: 0.8em;
+    background-color: rgb(241, 222, 202);
+}
+#city{
+    padding: 1em;
+     border-radius: 2em;
+}
+.main{
+    height: 20em;
+    width: 23em;
+    display: flex;
+    justify-content:center ;
+    padding-top: 3em;
+}
+.foot{
+    background-color: black;
+    color: white;
+    border-radius: 0.8em;
+}
+#getweather{
+    color: white;
+    background-color: brown;
+    padding: 1em;
+    border-radius: 20em;
+}
+.maincontent{
+    padding-left: 6em;
+}
+.weather{
+    margin: 2em ;
+    padding: 2em;
+    background-color:rgb(90, 83, 83) ;
+    color: white;
+    font-family: sans-serif;
+    height: 10em;
+    width: 20em;
+    border-radius: 1em;
+}
+.search{
+   padding-left: 3em;
+}

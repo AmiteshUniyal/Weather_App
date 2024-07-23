@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/weather.css">
+</head>
+<body >
+    <div class="body">
+    <div class="innerbody">
+    <header class="head">
+        <h1 style="padding: 3%;"><center>Weather Dashboard</center></h1>
+    </header>
+    <main class="main">
+        <div class="maincontent">
+            <section class="search">
+                <input type="text" id="city" placeholder="Enter Your City">
+                <button id="getweather">Get Weather</button>
+            </section>
+            <section class="weather">
+                <h2 id="Name"style="text-align: center;"></h2> <br>
+                <p id="temperature"style="text-align: center;"></p><br>
+                <p id="conditions"style="text-align: center;"></p><br>
+                <p id="humidity"style="text-align: center;"></p><br>
+                <p id="windSpeed"style="text-align: center;"></p>
+            </section>
+    
+        </div>
+    </main>
+    <footer class="foot" >
+        <h4 style="padding: 4%;"><center>@ 2024 Weather Dashboard</center></h4>
+    </footer>
+    </div>
+    </div>
+</body>
+<script src="script/weather.js"></script>
+</html>
