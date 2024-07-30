@@ -1,5 +1,5 @@
 const btn = document.getElementById("getweather");
-const api_id = "bd5e378503939ddaee76f12ad7a97608";
+const api_id = "enter your key here";
 const city_id = document.getElementById("city");
 const NAME = document.getElementById("Name");
 const temperature = document.getElementById("temperature");
